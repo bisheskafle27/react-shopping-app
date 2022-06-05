@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer } from "react";
-import { faker } from "https://cdn.skypack.dev/@faker-js/faker";
+import { faker } from "@faker-js/faker";
 import { cartReducer, productReducer } from "./Reducers";
 
 const Cart = createContext();
